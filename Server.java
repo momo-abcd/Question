@@ -51,20 +51,6 @@ class InputStreamThread extends Thread {
         }
     }
 }
-// class OutputStreamThread extends Thread {
-//     private LinkedList<Socket> socketArray;
-//     OutputStreamThread(LinkedList<Socket> s) {
-//         this.socketArray = s;
-//     }
-
-//     @Override
-//     public void run () {
-//         try{
-//         }catch(IOException e){
-//             System.err.println("Caught IOException: " + e.getMessage());
-//         }
-//     }
-// }
 class CustomInputStream  {
     private InputStream inputStream;
     private String str;
@@ -82,14 +68,3 @@ class CustomInputStream  {
         return this.str;
     }
 }
-// class CustomOutputStream {
-//     private OutputStream outputStream;
-//     private String str;
-//     public CustomOutputStream(OutputStream os){
-//         this.outputStream = os;
-//     }
-
-//     public boolead writeByString() trhows IOException {
-//         byte[] byteArr = new byte[50];
-//     }
-// }
